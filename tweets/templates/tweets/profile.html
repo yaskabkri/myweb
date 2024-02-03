@@ -1,0 +1,8 @@
+<!-- users/templates/users/profile.html -->
+{% for i in pro%}
+
+<h1>Welcome, {{ i.user.username }}</h1>
+<p>{{ i.bio }}</p>
+{% endfor %}
+<!-- Display additional profile information as needed -->
+
